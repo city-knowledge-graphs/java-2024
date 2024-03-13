@@ -21,7 +21,12 @@ import org.apache.jena.riot.RDFDataMgr;
 import org.apache.jena.riot.RDFFormat;
 
 
-
+/**
+ * Adapted 2024
+ * 
+ * @author ernesto
+ *
+ */
 public class OWLReasoning {
 
 	protected enum JenaReasoner {MICRO, MINI}

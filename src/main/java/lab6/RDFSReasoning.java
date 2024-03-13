@@ -1,5 +1,6 @@
 package lab6;
 
+
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.OutputStream;
@@ -21,7 +22,12 @@ import org.apache.jena.riot.RDFDataMgr;
 import org.apache.jena.riot.RDFFormat;
 
 
-
+/**
+ * Adapted 2024
+ * 
+ * @author ernesto
+ *
+ */
 public class RDFSReasoning {
 
 	
@@ -43,7 +49,7 @@ public class RDFSReasoning {
 		//Uses a RDFS reasoner internally
 		//InfModel inf_model = ModelFactory.createRDFSModel(model);
 		
-		System.out.println("The graph witn inferences contains '" + inf_model.listStatements().toSet().size() + "' triples.");
+		System.out.println("The graph witn RDFS inferences contains '" + inf_model.listStatements().toSet().size() + "' triples.");
 		
 		
 		
