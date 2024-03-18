@@ -139,6 +139,6 @@ rdfs:isDefinedBy  a         rdf:Property , rdfs:Resource ;
 rdfs:seeAlso  a             rdf:Property , rdfs:Resource ;
         rdfs:subPropertyOf  rdfs:seeAlso .
 
-:Juliet  a      :Mother , :Parent , :Woman , :Person , rdfs:Resource .
+:Juliet  a      :Mother , :Parent , rdfs:Resource , :Woman , :Person .
 
-:Carl   a       :Father , :Parent , rdfs:Resource , :Man , :Person .
+:Carl   a       :Father , :Parent , :Man , rdfs:Resource , :Person .
